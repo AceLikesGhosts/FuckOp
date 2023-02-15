@@ -1,0 +1,20 @@
+name: FuckOp
+description: fuck server operators. announces their business.
+author: ace.#0003
+main: me.aceownsyou.fuckop.FuckOpsPlugin
+version: 0.0.0-BETA
+api-version: 1.13
+commands:
+  op:
+    description: Turns a player into a server operator.
+    permission-message: "§cNo Permission."
+    usage: /op player1
+    permission: minecraft.command.op
+  deop:
+    description: Removes server operator status from a player.
+    permission-message: "§cNo Permission."
+    usage: /deop player1
+    permission: minecraft.command.op
+  isop:
+    description: Checks if a user has server operator status.
+    usage: /isop player1
